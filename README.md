@@ -9,16 +9,16 @@ You can take a look at: https://my-awesome-movie-theater-discover.netlify.app/
 
 This is a practical activity proposed by [Rockstar Coders](https://www.rockstarcoders.com) as a challenge in their selection process.
 
-The challenge is create a simple page to browser through movies using themoviedb public api.
+The challenge is create a simple page to browse through movies using themoviedb public api.
 
 The tech stack premisses of this challenge are:
 
   * create-react-app
   * react 16.8
 
-Any framework/libs of this techs are permitted.
+Any framework/libs of this techs are allowed.
 
-I choose:
+I choosed:
 
   * ChakraUI for react components;
   * axios for handling api requests;
