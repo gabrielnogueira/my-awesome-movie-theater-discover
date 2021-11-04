@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# My Awesome Movie Theater Discover!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a practical activity proposed by [Rockstar Coders](https://www.rockstarcoders.com) as a challenge in they selection process.
 
-## Available Scripts
+The challenge is create a simple page to browser through movies using themoviedb public api.
 
-In the project directory, you can run:
+The tech stack premisses of this challenge are:
 
-### `npm start`
+  * create-react-app
+  * react 16.8
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Any framework/libs of this techs are permitted.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+I choose:
 
-### `npm test`
+  * ChakraUI for react components;
+  * axios for handling api requests;
+  * typescript;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How this works?
+### App usage
+1. User can see the most popular movies;
+2. User can search for a particular movie;
+3. User can filter results by rating;
+4. User can se details of a movie by clicking on poster;
 
-### `npm run build`
+## TODO list
+- [ ] Mobile/Responsive UI Version;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started with this project
+  To run this project, you need to clone this repo, install the dependencies and create a environment variable named REACT_APP_MOVIE_DB_API_KEY. Create your own API_KEY at: [TheMovieDb](https://developers.themoviedb.org/3/). 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  You can pass this env var using cli or creating a .env file on your project root folder.
+  
+  Pay attention Environment variables are embedded into the build, meaning anyone can
+  view them by inspecting your app's files. This is usefull for dev projects only.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  After above steps, just exec yarn start.
 
-### `npm run eject`
+```bash
+$ git clone https://github.com/gabrielnogueira/my-awesome-movie-theater-discover
+$ cd my-awesome-movie-theater-discover
+$ yarn
+$ set REACT_APP_MOVIE_DB_API_KEY=<your-api-key> && yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enjoy!
