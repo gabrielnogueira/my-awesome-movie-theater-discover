@@ -30,7 +30,7 @@ I choose:
 ## Getting Started with this project
   To run this project, you need to clone this repo, install the dependencies and create a environment variable named REACT_APP_MOVIE_DB_API_KEY. Create your own API_KEY at: [TheMovieDb](https://developers.themoviedb.org/3/). 
 
-  You can pass this env var using cli or creating a .env file on your project root folder.
+  I recommend creating a .env file on your project root folder to handle environment variables.
   
   Pay attention Environment variables are embedded into the build, meaning anyone can
   view them by inspecting your app's files. This is usefull for dev projects only.
@@ -41,7 +41,8 @@ I choose:
 $ git clone https://github.com/gabrielnogueira/my-awesome-movie-theater-discover
 $ cd my-awesome-movie-theater-discover
 $ yarn
-$ set REACT_APP_MOVIE_DB_API_KEY=<your-api-key> && yarn start
+create your .env file and put your api key as described above
+$ yarn start
 ```
 
 Enjoy!
