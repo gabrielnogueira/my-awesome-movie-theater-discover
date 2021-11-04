@@ -1,6 +1,6 @@
 # My Awesome Movie Theater Discover!
 
-This is a practical activity proposed by [Rockstar Coders](https://www.rockstarcoders.com) as a challenge in they selection process.
+This is a practical activity proposed by [Rockstar Coders](https://www.rockstarcoders.com) as a challenge in their selection process.
 
 The challenge is create a simple page to browser through movies using themoviedb public api.
 
@@ -41,7 +41,7 @@ I choose:
 $ git clone https://github.com/gabrielnogueira/my-awesome-movie-theater-discover
 $ cd my-awesome-movie-theater-discover
 $ yarn
-create your .env file and put your api key as described above
+//create your .env file and put your api key as described above
 $ yarn start
 ```
 
