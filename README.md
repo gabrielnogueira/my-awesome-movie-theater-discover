@@ -1,3 +1,8 @@
+This webapp is deployed on netlify! You can take a look at: https://my-awesome-movie-theater-discover.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/624765bd-73de-4e74-bb40-cf40b7cefc5e/deploy-status)](https://app.netlify.com/sites/my-awesome-movie-theater-discover/deploys)
+
+
 # My Awesome Movie Theater Discover!
 
 This is a practical activity proposed by [Rockstar Coders](https://www.rockstarcoders.com) as a challenge in their selection process.
